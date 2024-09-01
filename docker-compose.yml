@@ -1,0 +1,13 @@
+services:
+  app:
+    container_name: tw-radio
+    env_file:
+      - .env
+    volumes:
+      - ${MUSIC_DIRECTORY}:/app/music # Music in your file system
+      - ${PUBLIC_DIRECTORY}:/app/public # For easy client modifications
+    ports:
+      - ${SERVER_PORT}:3000 # Your preference port
+    build:
+      context: '.'
+      dockerfile: Dockerfile

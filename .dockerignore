@@ -1,0 +1,7 @@
+node_modules
+music
+.env.example
+.gitignore
+docker-compose.yml
+Dockerfile
+.dockerignore

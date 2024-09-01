@@ -1,0 +1,25 @@
+{
+  "name": "tw-radio",
+  "author": {
+    "name": "alenj0x1",
+    "url": "https://github.com/alenj0x1"
+  },
+  "repository": {
+    "url": "https://github.com/alenj0x1/tw-radio"
+  },
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon node ."
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.4"
+  }
+}
